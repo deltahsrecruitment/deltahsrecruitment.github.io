@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
 body {
+	font-family: 'Roboto', sans-serif;
 	margin: 0px;
 	text-align: center;
+}
+
+#header {
+	background-attachment: fixed;
+	background-image: url("https://lh5.googleusercontent.com/p/AF1QipP8FXZ7ImGp9bNPCFMgNX-Jt86UW6PDn7nx_VcQ=w600-h563-p-k-no");
+	background-size: cover;
+	background-position: 50% 75%;
+	padding: 10% 0% 10% 0%;
+}
+
+#header h1 {
+	margin: 0px;
 }
 
 #navbar {
@@ -9,5 +23,12 @@ body {
 
 #navbar a {
 	color: #FFFFFF;
+	padding-left: 1%;
+	padding-right: 1%;
 	text-decoration: none;
+}
+
+#navbar a:hover {
+	background-color: #F0F0F0;
+	color: #000000;
 }
