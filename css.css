@@ -32,3 +32,21 @@ body {
 	background-color: #F0F0F0;
 	color: #000000;
 }
+
+#StemPicLeft {
+	float: left;
+	height: 30%;
+	width: 40%;
+	
+}
+
+#StemPageStuff {
+	padding: 2.5% 0% 0% 0%;
+	margin: 0%;
+
+}
+
+#textstuff {
+	Float: left;
+	padding-left: 1.5%;
+}
