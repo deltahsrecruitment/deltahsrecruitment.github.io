@@ -25,7 +25,7 @@ body {
 	color: #FFFFFF;
 	padding-left: 1%;
 	padding-right: 1%;
-	text-decoration: none;
+	text-decoration: none; 
 }
 
 #navbar a:hover {
@@ -33,14 +33,29 @@ body {
 	color: #000000;
 }
 
-table {
-	width: 33%;
+#StemPicLeft {
+	float: left;
+	height: 300px;
+	width: 300px;
+	
 }
 
-.left {
+#StemPageStuff {
+	padding: 2.5% 0% 0% 0%;
+	margin: 0%;
+
+}
+
+#textstuff {
+	Float: left;
+	padding-left: 1.5%;
+}
+
+#textsize1 {
+	font-size: 180%;
+}
+
+.textsize2 {
+	font-size: 120%;
 	text-align: left;
-}
-
-.right {
-	text-align: right;
 }
