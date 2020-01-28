@@ -25,7 +25,7 @@ body {
 	color: #FFFFFF;
 	padding-left: 1%;
 	padding-right: 1%;
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 #navbar a:hover {
@@ -37,7 +37,10 @@ body {
 	float: left;
 	height: 300px;
 	width: 300px;
-	
+}
+
+table {
+	width: 33%;
 }
 
 #StemPageStuff {
@@ -57,5 +60,12 @@ body {
 
 .textsize2 {
 	font-size: 120%;
+}
+
+.left {
 	text-align: left;
+}
+
+.right {
+	text-align: right;
 }
