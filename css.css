@@ -41,6 +41,7 @@ body {
 }
 
 table {
+  	border-spacing: 5% 10%;
 	width: 33%;
 }
 
