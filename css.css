@@ -25,7 +25,7 @@ body {
 	color: #FFFFFF;
 	padding-left: 1%;
 	padding-right: 1%;
-	text-decoration: none;
+	text-decoration: none; 
 }
 
 #navbar a:hover {
@@ -36,7 +36,8 @@ body {
 #StemPicLeft {
 	float: left;
 	height: 300px;
-	width: 300px;
+	width: 400px;
+	padding-left: 1.5%;	
 }
 
 table {
@@ -60,6 +61,7 @@ table {
 
 .textsize2 {
 	font-size: 120%;
+	text-align: left;
 }
 
 .left {
