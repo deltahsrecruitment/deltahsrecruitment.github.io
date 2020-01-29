@@ -33,11 +33,18 @@ body {
 	color: #000000;
 }
 
-#StemPicLeft {
+.StemPicLeft {
 	float: left;
 	height: 300px;
 	width: 400px;
 	padding-left: 1.5%;	
+}
+
+.StemPicRight {
+	text-align: right;
+	height: 300px;
+	width: 400px; 
+	padding-right: 1.5%;
 }
 
 table {
@@ -45,25 +52,40 @@ table {
 	width: 33%;
 }
 
-#StemPageStuff {
+
+.StemPageStuff {
 	padding: 2.5% 0% 0% 0%;
 	margin: 0%;
-
+	display: flex;
+	flex-direction: row;
+}
+.StemPageStuff2 {
+	padding: 2.5% 0% 0% 0%;
+	margin: 0%;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
-#textstuff {
+.textstuff {
 	Float: left;
 	padding-left: 1.5%;
 }
 
-#textsize1 {
+.textstuff2 {
+	float: right;
+	Padding-right: 1.5%;
+}
+
+.textsize1 {
 	font-size: 180%;
+	text-align: left;
 }
 
 .textsize2 {
 	font-size: 120%;
 	text-align: left;
 }
+
 
 .left {
 	text-align: left;
