@@ -48,10 +48,15 @@ body {
 }
 
 table {
-  	border-spacing: 1em 1em;
+	border-collapse: collapse;
 	width: 33%;
 }
 
+th, td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
 
 .StemPageStuff {
 	padding: 2.5% 0% 0% 0%;
@@ -59,7 +64,6 @@ table {
 	display: flex;
 	flex-direction: row;
 	font-size: 80% ;
-	
 }
 .StemPageStuff2 {
 	padding: 2.5% 0% 0% 0%;
