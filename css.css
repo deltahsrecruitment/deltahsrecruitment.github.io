@@ -64,6 +64,7 @@ th, td {
 	display: flex;
 	flex-direction: row;
 	font-size: 80% ;
+	
 }
 .StemPageStuff2 {
 	padding: 2.5% 0% 0% 0%;
@@ -103,4 +104,7 @@ th, td {
 }
 .paddingBottem {
 	padding-bottom: 1.5%;
+}
+#textmargins {
+		width: 33%;
 }
