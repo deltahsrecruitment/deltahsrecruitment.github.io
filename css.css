@@ -109,7 +109,13 @@ th, td {
 	display: flex;
 	flex-direction: row;
 	float: none;
-justify-content: center;
+	justify-content: center;
 	margin-left: 33%;
 	margin-right: 33%;
+}
+.marginsleft{
+	margin-left: 66%;
+}
+.marginsright {
+	margin-right: 66%;
 }
