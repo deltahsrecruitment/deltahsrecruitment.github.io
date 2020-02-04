@@ -86,12 +86,12 @@ th, td {
 
 .textsize1 {
 	font-size: 180%;
-	text-align: left;
+	text-align: center;
 }
 
 .textsize2 {
 	font-size: 120%;
-	text-align: left;
+	text-align: center;
 }
 
 
@@ -105,7 +105,11 @@ th, td {
 .paddingBottem {
 	padding-bottom: 1.5%;
 }
-#textmargins {
-		width: 33%;
-	text-align: center;
+.textmargins {
+	display: flex;
+	flex-direction: row;
+	float: none;
+justify-content: center;
+	margin-left: 33%;
+	margin-right: 33%;
 }
