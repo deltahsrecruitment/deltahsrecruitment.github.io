@@ -41,7 +41,7 @@ body {
 }
 
 .StemPicRight {
-	text-align: right;
+	float: right;
 	height: 20vh;
 	width: 35vh; 
 	padding-right: 1.5%;
@@ -120,4 +120,10 @@ th, td {
 }
 .marginsright {
 	margin-right: 66%;
+}
+.HomePicsize {
+	padding-left: 1.5%;	
+	height: 35vh;
+	width: 35vh; 
+	float: left;
 }
