@@ -105,7 +105,7 @@ th, td {
 	text-align: right;
 }
 .paddingBottem {
-	padding-bottom: 1.5%;
+	padding-bottom: 2.5%;
 }
 .textmargins {
 	display: flex;
@@ -126,4 +126,9 @@ th, td {
 	height: 35vh;
 	width: 35vh; 
 	float: left;
+}
+.TinyText{
+	font-size: 1vh  ;
+	color: grey;
+	padding-bottom: 1% ;
 }
